@@ -4,8 +4,8 @@ const cors = require("cors");
 const app = express();
 const path = require("path");
 const port = process.env.PORT || 5000;
-
 const FoodModel = require("./models/Food");
+
 app.use(express.json());
 app.use(cors());
 

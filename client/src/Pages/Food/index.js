@@ -14,7 +14,6 @@ export class Food extends Component {
   }
 
   addToList = () => {
-    // console.log(this.state.foodName, this.state.days);
     Axios.post("/insert", {
       foodName: this.state.foodName,
       days: this.state.days,
